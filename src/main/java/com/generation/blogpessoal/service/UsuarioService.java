@@ -27,6 +27,7 @@ public class UsuarioService {
 
     @Autowired
     private AuthenticationManager authenticationManager;
+    
 
 	public Optional<Usuario> cadastrarUsuario(Usuario usuario) {
 
